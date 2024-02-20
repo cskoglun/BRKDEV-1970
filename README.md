@@ -29,7 +29,3 @@ To run demo 4 on your own setup you'll need a (virtual) lab with a topology that
 * The BGP lab used in the demo is based on [this guide](https://jasonmurray.org/posts/2021/basicbgp/) by [Jason Murray](https://twitter.com/0xJasonMurray/)
 * The BGP test itself is based on [this work](https://github.com/kecorbin/pyats-network-checks) by [Kevin Corbin](https://twitter.com/kecorbin)
 
-<div align="right">
-   
-   Previous - [Next](sections/01-info_gathering/)
-</div>
