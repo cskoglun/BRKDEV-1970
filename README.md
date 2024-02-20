@@ -10,9 +10,6 @@ In this demo you saw us using pyATS in order to retrieve data from your networki
 * **Demo 3: Verify BGP Neighbor status using pyATS** shows you how to use a pyATS testcase to verify that all BGP neighbors are established. This example shows how you can codify common tests you would normally do manually when troubleshooting or verifying functionality in a network. [To Demo](sections/03-pyats_bgp/)
 * **Demo 4: Parallelized configuration pushing using pyATS and RQ** leverages two open source tools, pyATS and RQ, to build a simple parallel configuration delivery functionality that would be capable of, in parallel, push a configuration change to multiple devices. [To Demo](sections/04-parallel_config/)
 
-## A word on the NetDevOps pipeline demo
-
-The fifth demo that showcased a NetDevOps pipeline is based on a previous session delivered in a Partner Interactive Webinar. You can find the lab guide for this demo [here](https://github.com/sQu4rks/netdevops-pipeline-lab/). Please be aware that this is a more involved demo that will require some setup from your side. You can find the demo video [here](https://youtu.be/-1-LyXTOUd8).
 
 ## A word on setup
 
