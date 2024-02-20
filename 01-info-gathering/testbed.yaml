@@ -1,14 +1,14 @@
 ---
 testbed:
-  name: ciscolab
+  name: alwaysonsbxs
   credentials: 
     default:
-      username: "username"
-      password: "password"
-      enable: "password"
+      username: "admin"
+      password: "C1sco12345"
+      enable: "C1sco12345"
 
 devices:
-  switch:
+  Cat8000V:
     os: iosxe
     type: iosxe
     connections:
@@ -16,5 +16,5 @@ devices:
         class: unicon.Unicon
       ssh:
         protocol: ssh
-        ip: "ip-address"
+        ip: "sandbox-iosxe-latest-1.cisco.com"
         port: "22"
