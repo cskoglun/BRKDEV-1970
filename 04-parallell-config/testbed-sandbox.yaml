@@ -1,0 +1,20 @@
+---
+testbed:
+  name: alwaysonsbxs
+  credentials: 
+    default:
+      username: "username"
+      password: "password"
+      enable: "password"
+
+devices:
+  Cat8000V:
+    os: iosxe
+    type: iosxe
+    connections:
+      defaults:
+        class: unicon.Unicon
+      ssh:
+        protocol: ssh
+        ip: "sandbox-iosxe-latest-1.cisco.com"
+        port: "22"

@@ -1,0 +1,20 @@
+---
+testbed:
+  name: ciscolab
+  credentials: 
+    default:
+      username: "username"
+      password: "password"
+      enable: "password"
+
+devices:
+  switch:
+    os: iosxe
+    type: iosxe
+    connections:
+      defaults:
+        class: unicon.Unicon
+      ssh:
+        protocol: ssh
+        ip: "ip-address"
+        port: "22"
