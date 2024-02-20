@@ -96,8 +96,3 @@ The previous step will create a new file containing the diff for each device. In
 ```
 $ cat diff_config_iosxe_csr1000v-1_ops.txt
 ```
-
-<div align="right">
-   
-   Previous - [Next](02-config-diff/)
-</div>

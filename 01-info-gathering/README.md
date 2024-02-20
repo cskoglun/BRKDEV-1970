@@ -93,8 +93,3 @@ for name, device in testbed.devices.items():
     print("the version is ", data["version"]["version_short"])
 
 ```
-
-<div align="right">
-   
-   Previous - [Next](02-config-diff/)
-</div>
